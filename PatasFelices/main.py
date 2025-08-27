@@ -62,8 +62,8 @@ def registrarVenta(clientes, inventario):
 
 def registrarProducto():
     nombre = input("Nombre del producto: ")
-    categoria = input("Categoria del producto")
-    precio = input("Precio del producto: ")
+    categoria = input("Categoria del producto: ")
+    precio = float(input("Precio del producto: "))
     cantidad = int(input("Cantidad del producto: "))
     producto = Producto(nombre, categoria, precio, cantidad)
 
